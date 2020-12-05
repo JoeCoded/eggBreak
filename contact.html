@@ -21,6 +21,48 @@
         </nav>
         <hr>
 
+        <form action="submit.html" method="POST">
+            <label for= "name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone">
+            
+            <select id="reason" name="reason">
+                <option value="catering" selected>Catering</option>
+                <option value="private">Private Party</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select>
+
+            <fieldset>
+                <legend>Have you been to the restaurant?</legend>
+                <input type="radio" id="choice1" name="restaurant" value="yes">
+                <label for="choice1">Yes</label>
+                <input type="radio" id="choice2" name="restaurant" value="no">
+                <label for="choice2">No</label>
+                <input type="radio" id="choice3" name="restaurant" value="maybe">
+                <label for="choice3">Maybe</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Best days to contact you:</legend>
+
+                <input type="checkbox" id="m" name="when" value="monday">
+                <label for="m">M</label>
+                <input type="checkbox" id="t" name="when" value="tuesday">
+                <label for="t">T</label>
+                <input type="checkbox" id="w" name="when" value="wednesday">
+                <label for="w">W</label>
+                <input type="checkbox" id="th" name="when" value="thursday">
+                <label for="th">TH</label>
+                <input type="checkbox" id="f" name="when" value="friday">
+                <label for="f">F</label>
+            </fieldset>
+            <input type="submit" name="submit" value="Send Request">
+        </form>
+
         <footer>
             <p>987 7th St. Everton, Case 02202</p>
             <p>777.555.3333</p>  
