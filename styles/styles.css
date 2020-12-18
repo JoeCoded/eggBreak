@@ -1,21 +1,25 @@
 /*
     Name: Joe Barrett
     Date Created: 12.16.20
-    Most Recent Revision: 12.16.20
+    Most Recent Revision: 12.17.20
 */
 body {
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
 }
 
 header {
     padding: 20px;
+    font-family: 'Bungee Outline'; 
 }
 
 header, footer {
     text-align: center;
-    background-color: rgb(199, 174, 164);
-    
+    background-color: rgb(199, 174, 164); 
+}
+
+footer {
+    padding-top: 10px;
 }
 
 header img {
@@ -38,7 +42,7 @@ h2 {
     float: left;
 }
 
-div p {
+.home-p {
     text-align:center;
 }
 a {
@@ -66,4 +70,28 @@ nav a:hover {
     clear: both;
 }
 
+.menu-description {
+    text-indent: 80px;
+    margin-bottom: 15px;
+}
 
+.menu-headings {
+    text-indent: 20px;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+    font-size: large;  
+}
+
+#menu-background {
+    background-color: rgb(104, 141, 104);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu-title {
+    font-size: xx-large;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    text-align: center;
+    border-bottom: thin solid black;
+}
