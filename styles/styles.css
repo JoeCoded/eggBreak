@@ -95,3 +95,17 @@ nav a:hover {
     text-align: center;
     border-bottom: thin solid black;
 }
+
+.menu-float-left {
+    float: left;
+}
+
+.bev-table {
+    margin: auto;
+    font-size:larger;
+}
+
+td {
+    padding-bottom: 12px;
+}
+
